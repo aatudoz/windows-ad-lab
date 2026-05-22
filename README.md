@@ -63,7 +63,7 @@ ajaa uudelleen, ei lahoa vaikka CSVssä olisi samoja nimiä. Katso [scripts/](sc
 Operatiiviset ohjeet kirjoitettuna niin kuin ne menisivät oikeaan
 tikettijärjestelmään tai Confluenceen:
 
-- [Käyttäjän onboarding](runbooks/user-onboarding.md)
+- [Käyttäjän onboarding](runbook/user-onboarding.md)
 
 ## Mitä opin ja mihin kompastuin
 
