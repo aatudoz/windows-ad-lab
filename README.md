@@ -24,17 +24,35 @@ Rakensin tämän labran harjoitellakseni Windows Server -ympäristöjen pyöritt
 Toimialueen pystytys, ADn sisäinen OU-rakenne osastoittain, käyttäjä- ja ryhmähallinta,
 Group Policy eri käyttötarkoituksiin.
 
+![OU-rakenne ADUC:ssa](screenshots/ad-ou-structure.png)
+
+![Group Policy kohdistettuna OU:ihin](screenshots/ad-group-policy.png)
+
 ### Varmennepalvelut (AD CS)
 Enterprise Root CA, varmennepohjat, palvelinvarmenteiden myöntäminen.
+
+![AATU-Root-CA ja myönnetyt varmenteet](screenshots/adcs-ca-console.png)
 
 ### IIS
 Ympäristöstä löytyy oma HTML-sivu ja julkaisin sen IIS:llä. Lisäsin
 HTTPS-sidonnan käyttäen labran omaa CA:ta ja selain tunnistaa varmenteen
 ja näyttää https-lukon ilman varoitusta.
 
+![HTTPS-sidonta IIS:ssä](screenshots/iis-https-binding.png)
+
+![Portaalisivu HTTPS:llä](screenshots/iis-https-site.png)
+
 ### SQL Server
 Tietokannan palautus varmuuskopiosta, varmuuskopiointi, SQL Agent
 -ajastukset (öisin backup), käyttöoikeuksien hallinta ja testaus.
+
+![Tietokantakysely SSMS:ssä](screenshots/sql-database-query.png)
+
+![Varmuuskopiointi onnistui](screenshots/sql-backup-success.png)
+
+![SQL Agent -jobi ajettu onnistuneesti](screenshots/sql-agent-job-success.png)
+
+![Käyttöoikeuksien testaus, db_datareader estää kirjoituksen](screenshots/sql-permission-test.png)
 
 ### PowerShell-automaatio
 Skripti käyttäjätunnusten massaluontiin CSV:stä. Turvallista
