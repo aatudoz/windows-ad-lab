@@ -46,7 +46,7 @@ ja näyttää https-lukon ilman varoitusta.
 Tietokannan palautus varmuuskopiosta, varmuuskopiointi, SQL Agent
 -ajastukset (öisin backup), käyttöoikeuksien hallinta ja testaus.
 
-![Tietokantakysely SSMS:ssä](screenshots/sql-database-query.png)
+![Tietokantakysely SSMS:ssä](screenshots/sql-query.png)
 
 ![Varmuuskopiointi onnistui](screenshots/sql-backup-success.png)
 
