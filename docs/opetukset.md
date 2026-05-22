@@ -88,14 +88,3 @@ vain silloin, kun yksittäinen sivusto on valittuna.
 **Ratkaisu:** Avasin Sites-kohdan ja valitsin `AATU-Portal`-sivuston,
 jonka jälkeen Bindings tuli näkyviin Actions-paneeliin.
 
-## SQL-varmuuskopio epäonnistui
-
-**Oire:** `BACKUP DATABASE` -komento epäonnistui.
-
-**Syy:** Käytin tietokannan nimeä, joka ei vastannut oikeasti
-asennettua tietokantaa.
-
-**Ratkaisu:** Korjasin komennon käyttämään oikeaa tietokannan nimeä.
-Tässä huomasi hyvin sen, että nimet kannattaa pitää kaikkialla samoina
-— tietokannoissa, palvelimissa, varmenteissa ja dokumentaatiossa —
-muuten tulee helposti turhaa sekoilua.
