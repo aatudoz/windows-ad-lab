@@ -43,16 +43,30 @@ ja näyttää https-lukon ilman varoitusta.
 ![Portaalisivu HTTPS:llä](screenshots/iis-https-site.png)
 
 ### SQL Server
+
 Tietokannan palautus varmuuskopiosta, varmuuskopiointi, SQL Agent
--ajastukset (öisin backup), käyttöoikeuksien hallinta ja testaus.
+-ajastukset (öinen backup), käyttöoikeuksien hallinta ja testaus.
 
 ![Tietokantakysely SSMS:ssä](screenshots/sql-query.png)
 
+*AdventureWorks2025-tietokanta palautettu ja kyseltävissä. Object
+Explorerissa näkyvät tietokannan taulut.*
+
 ![Varmuuskopiointi onnistui](screenshots/sql-backup-success.png)
+
+*Täysi varmuuskopio ajettu T-SQL:llä. Messages-välilehti vahvistaa
+onnistuneen ajon.*
 
 ![SQL Agent -jobi ajettu onnistuneesti](screenshots/sql-agent-success.png)
 
+*Ajastettu varmuuskopiojobi "AdventureWorks Night Backup" ajettu
+onnistuneesti.*
+
 ![Käyttöoikeuksien testaus, db_datareader estää kirjoituksen](screenshots/sql-permission-test.png)
+
+*Testilogin testattu: db_datareader-roolilla SELECT onnistuu mutta
+UPDATE estyy. Estyvä kirjoitus on oikea lopputulos. Varmistaa
+että käyttöoikeudet on rajattu oikein.*
 
 ### PowerShell-automaatio
 Skripti käyttäjätunnusten massaluontiin CSV:stä. Turvallista
