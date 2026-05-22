@@ -64,15 +64,13 @@ Operatiiviset ohjeet kirjoitettuna niin kuin ne menisivät oikeaan
 tikettijärjestelmään tai Confluenceen:
 
 - [Käyttäjän onboarding](runbooks/user-onboarding.md)
-- [Varmenteiden hallinta](runbooks/certificate-management.md)
-- [SQL Server -operointi](runbooks/sql-operations.md)
 
 ## Mitä opin ja mihin kompastuin
 
 Labran rakentamisessa tuli vastaan oikeita ongelmia. Vianselvitys ja
 juurisyiden löytäminen on dokumentoitu erikseen:
 
-- [Vianselvitysmuistiinpanot](docs/lessons-learned.md)
+- [Vianselvitysmuistiinpanot](docs/opetukset.md)
 
 Esimerkkejä: AD CS:n varmenne-enrollment epäonnistui koska palvelimen
 tietokonetili puuttui Domain Computers -ryhmästä; SSMS:n yhteysongelma
