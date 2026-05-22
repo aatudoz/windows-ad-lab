@@ -50,7 +50,7 @@ Tietokannan palautus varmuuskopiosta, varmuuskopiointi, SQL Agent
 
 ![Varmuuskopiointi onnistui](screenshots/sql-backup-success.png)
 
-![SQL Agent -jobi ajettu onnistuneesti](screenshots/sql-agent-job-success.png)
+![SQL Agent -jobi ajettu onnistuneesti](screenshots/sql-agent-success.png)
 
 ![Käyttöoikeuksien testaus, db_datareader estää kirjoituksen](screenshots/sql-permission-test.png)
 
